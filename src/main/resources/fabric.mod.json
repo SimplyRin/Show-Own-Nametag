@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "showownnametag",
+  "version": "${version}",
+  "name": "Show Own Nametag",
+  "description": "Display the name tag above your head.",
+  "authors": [ "SimplyRin" ],
+  "contact": {
+    "homepage": "https://www.simplyrin.net",
+    "sources": "https://github.com/SimplyRin/show-own-nametag"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.simplyrin.showownnametag.ShowOwnNametag"
+    ]
+  },
+  "mixins": [ "showownnametag.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
