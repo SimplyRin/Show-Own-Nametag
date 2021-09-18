@@ -1,5 +1,8 @@
 # Show-Own-Nametag
-自分の頭の上にネームタグを表示する Mod / Display the name tag above your head.
+自分の頭の上にネームタグを表示する Fabric Mod / Display the name tag above your head.
+
+## ダウンロード
+[Releases](https://github.com/SimplyRin/Show-Own-Nametag/releases)
 
 ## コマンド
 /nametag <on|off> : ネームタグ表示のオン/オフを切り替えする
